@@ -1,0 +1,589 @@
+<!-- Name:Kinza Batool -->
+<!-- Rollno#010 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organic Farming</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  section div{
+    background-color: #76b852;
+  }
+  .fa {
+  padding: 3px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 8px;
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: white;
+  color: #76b852;
+}
+
+.fa-twitter {
+  background:white;
+  color: #76b852;
+}
+
+.fa-google {
+  background:white;
+  color: #76b852;
+}
+
+.fa-linkedin {
+  background:white;
+  color: #76b852;
+}
+
+.fa-youtube {
+  background:white;
+  color: #76b852;
+}
+
+.fa-instagram {
+  background: white;
+  color: #76b852;
+}
+.fa-pinterest {
+  background: white;
+  color: #76b852;
+}
+
+.header {
+    background-color: white; /* Green header */
+    padding: 5px ;
+    color: white;
+    text-align: left;
+    font-size: medium;
+  }
+  .header img {
+    width: 150px; /* Adjust as needed */
+    margin-left: 50px;
+    color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+  }
+  .Email-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+  }
+  .search-container {
+    position: absolute;
+    padding-top: 50px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    margin-right: 40px;
+  }
+
+  /* Style the search input field and button as a group */
+  .search-group {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .search-group input[type="text"] {
+    padding: 8px;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+  }
+
+  .search-group button {
+    padding: 8px 15px;
+    background-color: rgb(243, 173, 43); /* Green background */
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+ 
+
+  /* Style the phone number section */
+  .phone-number {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  /* Replace the phone icon with a different one */
+  .phone-icon {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  .nav-bar {
+    background-color: rgb(243, 173, 43);
+    overflow: hidden;
+  }
+  .nav-bar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+  }
+  .nav-bar a:hover {
+    background-color: rgb(53, 143, 53);
+    color: white;
+  }
+  .main-content {
+    position: relative;
+    text-align: center;
+  }
+  .main-content img {
+    width: 1400px;
+    height: 400px;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px; /* Adjust as needed */
+  }
+  
+
+.agriculture-products-section {
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 20px;
+  text-align: center;
+}
+.agriculture-products-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+.agriculture-products-section h2 {
+  color: #333; /* Dark text for heading */
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+  }
+  .product {
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .product img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+  }
+  .product h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  .product p {
+    color: #666;
+
+  }
+  .info-content {
+    background: url(k1.jpg) no-repeat ;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    
+    
+  } 
+  .info-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+   
+  }
+  .info-sections div{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .info-sections div button{
+    border-radius: 12px;
+    background-color: rgb(243, 173, 43);
+    padding-block: 5px;
+  }
+  .info {
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .info-content h2 {
+    margin-top: 10px;
+    color: white;
+  }
+
+  .info h3 {
+    margin-top: 10px;
+    color:  black;
+  }
+  .info p {
+    color:black;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 300px;
+   
+
+  }
+  .card {
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  .card-header {
+    background-color: rgb(243, 173, 43);
+    color: #333;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  .card img {
+    width: 230px;
+    height: 150px;
+    border-radius: 12px;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+    
+  }
+  .card-content {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+ 
+
+
+
+/* Basic styling for the logo divs */
+.logo-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo {
+width: 200px; /* Adjust the size as needed */
+height: 80px;
+background-color: white; /* Example background color */
+border: 1px solid #ccc; /* Example border */
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 16px;
+color: #aaa6a6;
+margin: 10px; /* Add a minimum margin */
+box-shadow: #666;
+background-position: center;
+background-repeat: no-repeat;
+}
+.certifications-section {
+background-color: #c7c0c0; /* White background */
+text-align: center;
+padding: 20px;
+}
+.certifications-section h2 {
+color: #333; /* Dark text for 'CERTIFICACIONES' heading */
+}
+
+/* Existing styles ... */
+.footer{
+  background-image: url(images\ \(2\).jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 300px;
+  padding-top: 60px;
+ 
+}
+.footer-nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  
+}
+
+
+.footer-bar{
+  display: flex; 
+  border: 1px solid ;
+  border-style: hidden;
+  padding: 40px 5px 15px 5px;
+  display: block;
+  margin-left: 290px;
+
+}
+.footer-bar a {
+    float: left;
+    color: rgb(228, 223, 223);
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
+    font-size: small;
+   
+    
+  }
+ 
+ /* Footer copyright and design credit styles */
+ .footer-bar h5{
+  border: 1px solid ;
+  border-style: hidden;
+  padding: 20px;
+  text-decoration: none;
+  font-size: small;
+  border-bottom: 20px;
+  margin-right: 300px;
+  color: #cec8c8;
+ }
+.footer-bar p {
+  border: 1px solid ;
+  border-style: hidden;
+  padding: 65px;
+  font-size: small; /* Update with the size that matches your design */
+  margin-left: 180px;
+  padding-bottom: 5px;
+}
+
+/* Existing styles ... */
+</style>
+</head>
+<body>
+  <section>
+    <div>
+    <a href="#" class="fa fa-facebook" style=" margin-left: 50px;"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+    </div>
+  </section>
+  
+
+<div class="header">
+  <img src="1600w-EopC-HgEgK8.jpg" alt="Logo">
+  <div class="search-container">
+    <!-- Phone number with a phone icon -->
+    <div class="phone-number">
+      <span class="phone-icon">📞</span> <!-- Different phone icon -->
+      <span style="font-weight: bold;">+123 456 7890</span> <!-- Example phone number -->
+    </div>
+  
+    <!-- Grouped search bar and button -->
+    <div class="search-group">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+  </div>
+  <div class="Email-info" style=" margin-right: 50px;">
+   Email:info@companyname.com 
+  </div>
+</div>
+
+<div class="nav-bar" >
+  <a href="#home" style="margin-left: 40px;">Home</a>
+  <a href="#fruits">Fruits</a>
+  <a href="#oil">Vegetable Oil</a>
+  <a href="#services">Service</a>
+  <a href="#substainablity">Substainablity</a>
+  <a href="#news">News</a>
+  <a href="#media gallery">Media Gallery</a>
+  <!-- Add other menu items here -->
+  <a href="#contact">Contact Us</a>
+</div>
+
+<div class="main-content">
+  <img src="Paddies-image.jpg" alt="Green Fields" >
+  <div class="overlay-text">LOREM IPSUM IS SIMPLY PRINTING<br>LOREM IPSUM IS SIMPLY DUMMY TEXT OF<br>THE PRINTING AND TYPESETTING INDUST</div>
+  <div class="social-icons">
+    <!-- Insert social media icons here -->
+  </div>
+</div>
+
+<!-- Existing code ... -->
+<!-- New section for Agriculture Products -->
+<div class="agriculture-products-section">
+    <h2>AGRICULTURE PRODUCTS</h2>
+    <div class="product-container">
+      <div class="product">
+        <img src="Kola-nut.jpg" alt="Kola Nut">
+        <h3>Kola Nut</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+      </div>
+    
+      <div class="product">
+        <img src="download.jpg" alt="Gacillia Nut">
+        <h3>Gacillia Nut</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+      </div>
+    
+      <div class="product">
+        <img src="images.jpg" alt="Cocoa Nut">
+        <h3>Cocoa Nut</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+      </div>
+    </div>
+</div>
+
+    
+<div class="info-content" >
+  <h2>BEYOND JUST PLANTING A SEED...<br>WE CONTRIBUTE TO A BETTER FUTURE<br>FOR OUR PEOPLE AND THE ENVIRONMENT</h2>
+  <div class="info-sections">
+    <div class="info">
+      <h3>About Us</h3>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+      <button>Read More</button>
+     </div>
+    <div class="info">
+      <h3>History</h3>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+      <button>Read More</button>
+    </div>
+    <div class="info">
+      <h3>Corporate Social Responsibility</h3>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+      <button>Read More</button>
+  </div> 
+</div> 
+<!-- Existing code ... -->
+
+<!-- New section for 'Our People', 'Community Development', 'Environment', and 'Sustainability' -->
+
+<div class="info-container">
+    <div class="container">
+        <div class="card">
+          <div class="card-header">Our People</div>
+          <img src="kbb1.jpg" alt="Our People">
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet...Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Community Development</div>
+          <img src="kbb2.jpg" alt="Community Development">
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet...Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Environment</div>
+          <img src="kbb3.jpg" alt="Environment">
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet...Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Sustainability</div>
+          <img src="kbb4.jpg" alt="Sustainability">
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet...Lorem ipsum is simply dummy text of the printing and typesetting industry...</p>
+          </div>
+        </div>
+    </div>
+      
+</div>
+
+<div class="certifications-section">
+    <h2>CERTIFICACIONES</h2>
+    <div class="logo-container">
+        <div class="logo" style="background-image: url(l1.jpg);background-size: 200px;"></div>
+        <div class="logo" style="background-image: url(l2.jpg);background-size: 120px;"></div>
+        <div class="logo" style="background-image: url(l3.png);background-size: 220px;"></div>
+        <div class="logo" style="background-image: url(l4.jpg);background-size: 80px;"></div>
+        <div class="logo" style="background-image: url(l5.jpg);background-size: 220px;"></div>
+        <div class="logo" style="background-image: url(l6.jpg);background-size: 65px;"></div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <nav class="footer-nav">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+  </nav>
+  <div class="footer-bar">
+    <a href="#home ">Home</a>
+    <a href="#fruits">Fruits</a>
+    <a href="#oil">Vegetable Oil</a>
+    <a href="#services">Service</a>
+    <a href="#substainablity">Substainablity</a>
+   <a href="#news">News</a>
+   <a href="#media gallery">Media Gallery</a>
+   <a href="#contact">Contact Us</a>
+    <h5>Copyright ©2016 Companyname.com</h5>
+    <p><a href="http://www.webdesigner.com">Design by www.webdesigner.com</a></p> 
+  </div>
+</div> 
+<!-- Existing code ... -->
+</body>
+</html>
